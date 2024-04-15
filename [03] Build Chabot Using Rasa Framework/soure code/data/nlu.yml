@@ -1,0 +1,126 @@
+version: "3.1"
+
+nlu:
+# lời chào
+- intent: greet 
+  examples: |
+    - hello
+    - hi
+    - xin chào
+    - heyy
+    - bạn có thể giúp được gì
+    - bạn có thể giúp tôi được không
+    - xin hãy giúp tôi
+
+# hỏi tên
+- intent: happy_communication_1
+  examples: |
+    - bạn tên là gì
+    - tên bạn là gì
+    - bạn có tên không
+    - tôi có thể gọi bạn là gì
+    - cho tôi biết tên của bạn
+    - quý danh của bạn là gì
+
+# hỏi tuổi
+- intent: happy_communication_2
+  examples: |
+   - bạn bao nhiêu tuổi
+   - bạn sinh năm bao nhiêu
+   - bạn tuổi con gì
+   - bạn tuổi gì
+   - bạn có tuổi không
+   - bạn sinh năm bao nhiêu
+   - bạn đẻ năm bao nhiêu
+
+# hỏi quê quán
+- intent: happy_communication_3
+  examples: |
+   - bạn quê ở đâu
+   - bạn có quê không
+   - bạn sinh ra ở đâu thế
+   - bạn sinh ra ở đâu vậy nhỉ
+   - quê bạn ở đâu
+   - quê bạn ở chỗ nào
+   - nơi chôn rau cắt rốn của bạn ở đâu
+
+# hỏi linh tinh
+- intent: happy_communication_4
+  examples: |
+   - người yêu bạn tên là gì
+   - bạn có người yêu chưa
+   - người yêu bạn là nam hay nữ
+   - người yêu bạn tuổi gì
+   - người yêu bạn ở đâu
+   - người yêu bạn có yêu bạn không
+
+# infomation school
+- intent: information_school
+  examples: |
+   - ICTU thành lập năm bao nhiêu
+   - Trường đại học công nghệ thông tin và truyền thông thái nguyên thành lập năm bao nhiêu
+   - Trường ICTU sinh nhật vào ngày nào
+   - Trường ICTU thành lập được bao nhiêu năm rồi
+   - trường sinh nhật vào ngày bao nhiêu
+   - Trường thành lập vào ngày bao nhiêu
+   - trường thành lập được bao nhiêu năm rồi
+
+# information school (1)
+- intent: information_school_1
+  examples: |
+   - ICTU là gì
+   - tại sao lại gọi là ICTU
+   - ICTU là viết tắt của từ gì vậy
+   - trường ICTU là trường nào
+
+# information school (3)
+- intent: leader_school
+  examples: |
+   - hiệu trường trường mình hiện tại là ai
+   - hiệu trưởng trường đại học công nghệ thông tin và truyền thông Thái Nguyên là ai
+   - hiệu trường trường ICTU là ai
+   - ai là hiệu trưởng trường ICTU hiện tại
+   - ai là hiệu trưởng trường đại học công nghệ thông tin và truyền thông Thái Nguyên
+   - hiệu phó trường mình hiện tại là ai
+   - hiệu phó trường đại học công nghệ thông tin và truyền thông Thái Nguyên là ai
+   - hiệu phó trường ICTU là ai
+   - ai là hiệu phó trường ICTU hiện tại
+   - ai là hiệu phó trường đại học công nghệ thông tin và truyền thông Thái Nguyên
+
+# information school (4)
+- intent: infomation_major
+  examples: |
+    - có bao nhiêu nghành học ở ICTU
+    - có bao nhiêu nghành học ở trường đai học công nghệ thông tin và truyển thông
+    - ICTU đào tạo tất cả bao nhiêu nghành nghề
+    - trường có những nghành gì
+    - trường đào tạo những nghành gì
+    - trường ICTU đào tạo nghành gì
+    - trường ICTU đào tạo bao nhiêu nghành nghề
+
+  # information school (5)
+- intent: information_dktc
+  examples: |
+   - đăng kí các môn học kiểu gì
+   - làm sao để đăng kí được các học phần trong kì học
+   - đăng kí các học phần như thế nào
+   - cách để đăng kí môn học
+   - cách để đăng kí kì học
+   - làm sao để đăng kí các học phần trong năm học
+
+# information 
+- intent: information_time
+  examples: |
+   - thời gian ra vào lớp học 
+   - thời gian vào học tiết 1
+   - mấy giờ vào lớp
+   - thời gian ra vào lớp mùa hè
+   - thời gian ra vào lớp mùa đông
+   - thời gian vào học tiết 2
+   - thời gian vào học tiết 9
+   - thời gian vào học tiết 10
+   - thời gian ra chơi tiết 1
+   - tiết 2 ra chơi lúc mấy giờ
+   - tiết 3 vào học lúc mấy giờ
+   - tiết 7 vào học lúc mấy giờ
+

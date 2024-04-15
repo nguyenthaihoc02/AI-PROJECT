@@ -1,0 +1,115 @@
+version: "3.1"
+
+intents:
+  - greet
+  - happy_communication_1
+  - happy_communication_2
+  - happy_communication_3
+  - happy_communication_4
+  - information_school
+  - information_school_1
+  - leader_school
+  - infomation_major
+  - information_dktc
+  - information_time
+responses:
+
+# đáp lại lời chào
+  utter_greet:
+  - text: "Chào! Bạn cần giúp đỡ về vấn đề gì? Tôi sẵn lòng để giúp bạn."
+  - text: "Xin chào! Bạn cần giúp đỡ về điều gì? Hãy chia sẻ vấn đề hoặc câu hỏi của bạn, và tôi sẽ cố gắng hỗ trợ bạn."
+  - text: "Xin chào! Chào mừng bạn đến với dịch vụ hỗ trợ của chúng tôi. Hãy cho tôi biết nếu bạn có câu hỏi hoặc cần giúp đỡ về bất kỳ vấn đề nào. Tôi sẽ cố gắng giúp bạn trong khả năng của mình"
+  - text: "Chào bạn! Rất vui được gặp bạn ở đây. Hãy cho tôi biết nếu bạn có câu hỏi hoặc cần hỗ trợ về bất kỳ điều gì. Tôi sẽ cố gắng giúp bạn"
+  - text: "Xin chào bạn! Rất vui được gặp bạn ở đây. Tôi là một mô hình ngôn ngữ AI được gọi là ChatbotICTU, được đào tạo bởi kĩ sư AI của trường Đại học CNTT & TT Thái Nguyên. Tôi có thể xử lý các câu hỏi và cung cấp các thông tin liên quan về trường đại học CNTT & TT Thái Nguyên"
+  - text: "Xin chào bạn! Tôi sẽ cố gắng giúp bạn. Vui lòng chia sẻ vấn đề cụ thể hoặc câu hỏi bạn đang gặp phải, và tôi sẽ cung cấp hỗ trợ tốt nhất có thể"
+  - text: "Chào bạn nhé. Bạn muốn tôi giúp đỡ về điều gì"
+  - text: "Xin chào. Rất vui được gặp bạn ở đây. Tôi có thể giúp gì cho bạn"
+
+# đáp về tên
+  utter_happy_communication_1:
+  - text: "Tôi là ChatbotICTU bạn có thể gọi tôi là bot, một mô hình ngôn ngữ AI được phát triển bởi kĩ sư quê Thái Bình."
+  - text: "Ohh bạn có thể gọi tôi theo tên gì cũng được miễn là đừng bậy bạ quá nhé, bạn có thể đặt cho tôi một cái tên bất kì, và tôi sẽ dùng tên đó để nói chuyện với bạn."
+  - text: "Tôi tên là ChatbotICTU"
+  - text: "Tôi là một mô hình ngôn ngữ trí tuệ nhân tạo, bạn có thể gọi tôi là bot, hoặc ChatbotICTU nhé"
+  - text: "Tôi là một mô hình ngôn ngữ được xây dựng bỏi AI, tôi không có tên cụ thể như tên người"
+  - text: "Cứ gọi tôi là ChatbotICTU hay bot nhé"
+  - text: "Tôi không có tên cụ thể. Cứ gọi tôi là ChatbotICTU"
+
+# đáp về tuổi
+  utter_happy_communication_2:
+  - text: "Tôi không được sinh ra như con người nên không có tuổi"
+  - text: "Tôi không được sinh ra nên không có năm sinh cụ thể, tôi chỉ là một mô hình ngôn ngữ"
+  - text: "Tôi không có năm sinh, vì tôi là một mô hình máy móc"
+  - text: "Nếu tính như con người thì tôi tuổi khỉ, vì tôi được kĩ sư tạo ra vào năm nay"
+  - text: "Có lẽ là tôi sinh ra vào năm 2024, vì tôi được kĩ sư tạo ra vào năm nay"
+
+# đáp về quê quán:
+  utter_happy_communication_3:
+  - text: "Tôi là một mô hình AI, tôi không có quê hương như con người"
+  - text: "Vì tôi chỉ là một mô hình trí tuệ nhân tạo, nên tôi không có quê hương"
+
+# 4. 
+  utter_happy_communication_4:
+  - text: "Tôi không có người yêu vì tôi không có cảm xúc như con người"
+  - text: "Là một trí tuệ nhân tạo, tôi không có cảm xúc, quan điểm cá nhân. Do đó, tôi không có người yêu. Tuy nhiên, bạn có thể chia sẻ người yêu của bạn với tôi nếu bạn muốn."
+  - text: "Là một trí tuệ nhân tạo, tôi không có khả năng có một người yêu. Tôi chỉ là một chương trình máy tính được tạo ra để cung cấp thông tin và hỗ trợ trong việc trả lời các câu hỏi của bạn."
+  - text: "Là một trí tuệ nhân tạo, tôi không có cảm xúc và không có khả năng có một người yêu. Tôi được tạo ra để cung cấp thông tin và hỗ trợ trong việc trả lời các câu hỏi."
+
+# 5
+  utter_information_school:
+  - text: "Khoa Công nghệ Thông tin, thành viên của Đại học Thái Nguyên, được thành lập vào ngày 14/11/2001 theo Quyết định số 6946/QĐ-BGD ĐT-TCCB của Bộ trưởng Bộ Giáo dục và Đào tạo. Sau 10 năm phát triển và xây dựng, Trường Đại học Công nghệ Thông tin và Truyền thông được thành lập vào ngày 30/3/2011 theo Quyết định số 468/QĐ-TTg do Thủ tướng Chính phủ ký, trên cơ sở nâng cấp từ Khoa Công nghệ Thông tin thuộc Đại học Thái Nguyên."
+  - text: "Đại học Thái Nguyên đã thành lập Khoa Công nghệ Thông tin vào ngày 14/11/2001 theo Quyết định số 6946/QĐ-BGD ĐT-TCCB của Bộ trưởng Bộ Giáo dục và Đào tạo. Sau 10 năm phát triển và đạt được thành tựu đáng kể, Trường Đại học Công nghệ Thông tin và Truyền thông được thành lập vào ngày 30/3/2011 theo Quyết định số 468/QĐ-TTg của Thủ tướng Chính phủ, trên cơ sở nâng cấp Khoa Công nghệ Thông tin của Đại học Thái Nguyên."
+  - text: "Vào ngày 14/11/2001, Đại học Thái Nguyên đã thành lập Khoa Công nghệ Thông tin theo Quyết định số 6946/QĐ-BGD ĐT-TCCB của Bộ trưởng Bộ Giáo dục và Đào tạo. Sau 10 năm phát triển, Khoa Công nghệ Thông tin đã được nâng cấp và trở thành Trường Đại học Công nghệ Thông tin và Truyền thông vào ngày 30/3/2011 theo Quyết định số 468/QĐ-TTg của Thủ tướng Chính phủ."
+  - text: "Khoa Công nghệ Thông tin, thành viên của Đại học Thái Nguyên, được thành lập vào ngày 14/11/2001 theo Quyết định số 6946/QĐ-BGD ĐT-TCCB của Bộ trưởng Bộ Giáo dục và Đào tạo. Sau 10 năm xây dựng và phát triển, vào ngày 30/3/2011, Thủ tướng Chính phủ đã ký Quyết định số 468/QĐ-TTg thành lập Trường Đại học Công nghệ Thông tin và Truyền thông trên cơ sở nâng cấp Khoa Công nghệ Thông tin của Đại học Thái Nguyên."
+  - text: "Thành lập vào ngày 14/11/2001 theo Quyết định số 6946/QĐ-BGD ĐT-TCCB của Bộ trưởng Bộ Giáo dục và Đào tạo, Khoa Công nghệ Thông tin thuộc Đại học Thái Nguyên đã trải qua 10 năm phát triển. Sau đó, vào ngày 30/3/2011, Trường Đại học Công nghệ Thông tin và Truyền thông đã được thành lập theo Quyết định số 468/QĐ-TTg của Thủ tướng Chính phủ, dựa trên sự nâng cấp từ Khoa Công nghệ Thông tin."
+  - text: "Khoa Công nghệ Thông tin là đơn vị đào tạo thành viên thuộc Đại học Thái Nguyên, được thành lập vào ngày 14 tháng 11 năm 2001 theo Quyết định số 6946/QĐ-BGD ĐT-TCCB của Bộ trưởng Bộ Giáo dục và Đào tạo. Sau 10 năm xây dựng và phát triển, vào ngày 30 tháng 3 năm 2011, Thủ tướng Chính phủ đã ký Quyết định số 468/QĐ-TTg thành lập Trường Đại học Công nghệ Thông tin và Truyền thông trên cơ sở nâng cấp Khoa Công nghệ Thông tin thuộc Đại học Thái Nguyên."
+
+# 6
+  utter_information_school_1:
+  - text: "ICTU là viết tắt của Thái Nguyên University of Information Technology and Communication, trường đại học đáng chú ý về Công nghệ Thông tin và Truyền thông, thu hút sinh viên từ khắp nơi."
+  - text: "ICTU là viết tắt của Thái Nguyên University of Information Technology and Communication, một trường đại học hàng đầu trong lĩnh vực Công nghệ Thông tin và Truyền thông ở khu vực Thái Nguyên."
+  - text: "ICTU là viết tắt của Thái Nguyên University of Information Technology and Communication, trường đại học nổi tiếng tại Việt Nam với chương trình đào tạo chất lượng cao về Công nghệ Thông tin và Truyền thông."
+  - text: "ICTU là viết tắt của Thái Nguyên University of Information Technology and Communication, một trường đại học có uy tín và danh tiếng trong lĩnh vực Công nghệ Thông tin và Truyền thông."
+  - text: "ICTU là viết tắt của Thái Nguyên University of Information Technology and Communication, trường đại học tọa lạc tại Thái Nguyên và chuyên về lĩnh vực Công nghệ Thông tin và Truyền thông."
+  - text: "ICTU là viết tắt của Thái Nguyên University of Information Technology and Communication, một trường đại học chuyên về Công nghệ Thông tin và Truyền thông tại Thái Nguyên."
+
+#7
+  utter_leader_school:
+  - text: "Hiệu trường của trường hiện tại là PGS. TS Phùng Trung Nghĩa"
+  - text: "Hiện tại PGS. TS Phùng Trung Nghĩa đang là hiệu trưởng của nhà trường"
+  - text: "PGS. TS Phùng Trung Nghĩa đang là hiệu trưởng của trường"
+  - text: "TS. Vũ Đức Thái và T.S Đỗ Đình Cường đang là hai hiệu phó của nhà trường"
+  - text: "Nhà trường hiện tại đang có hai hiệu phó là TS. Vũ Đức Thái và TS. Đỗ Đình Cường"
+  - text: "Hiệu phó nhà trường là TS. Vũ Đức Thái và TS. Đỗ Đình Cường"
+
+#8
+  utter_infomation_major:
+  - text: "Hiện tại trường đào tạo rất nhiều nghành nghề như: Công nghệ thông tin, An toàn thông tin, Mạng máy tính và truyển thông, Hệ thống thông tin, Khoa học máy tính, Kỹ thuật phần mềm, Kỹ thuật máy tính, kỹ thuật điện, điện tử, Cơ điện tử, Tự động hoá, Điện tử viễn thông, Công nghệ oto, Vi mạch bán dẫn, Công nghệ truyền thông, Thiết kế đồ hoạ, Truyền thông đa phương tiện, Quản trị kinh doanh, Thương mại điện tử, Marketing số, Quản trị văn phòng, Quản lý logistic và chuỗi cung ứng"
+                                                 
+#9
+  utter_information_time:
+  - text: "Hiện tại mỗi ngày trường có 1o tiết học chính, 5 tiết sáng và 5 tiết buổi chiều. Buổi sáng tiết 1 bắt đầu từ 6h45, buổi chiều là tiết 6 bắt đầu từ 13h00. Mỗi tiết học kéo dài 50 phút, ra chơi 5 phút, các bạn có thể dựa vào đây để tính toán thời gian các tiết khác."
+
+  utter_information_dktc:
+  - text: "Mỗi năm học sẽ có hai học kì, trước lúc kì mới bắt đầu, nhà trường sẽ mở các môn học và sẽ thông báo về những hộc phần mà bạn có thể học trong kì đó. Sau đó bạn cần lên trang http://dangkytinchi.ictu.edu.vn/ tiến hành nạp tiền và đăng kí những môn học đó"
+
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

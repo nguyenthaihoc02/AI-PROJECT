@@ -1,0 +1,29 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: happy_communication_1
+  - action: utter_happy_communication_1
+  - intent: happy_communication_2
+  - action: utter_happy_communication_2
+  - intent: happy_communication_3
+  - action: utter_happy_communication_3
+  - intent: happy_communication_4
+  - action: utter_happy_communication_4
+  - intent: information_school
+  - action: utter_information_school
+  - intent: information_school_1
+  - action: utter_information_school_1
+  - intent: leader_school
+  - action: utter_leader_school
+  - intent: infomation_major
+  - action: utter_infomation_major
+  - intent: information_dktc
+  - action: utter_information_dktc
+  - intent: information_time
+  - action: utter_information_time
+
