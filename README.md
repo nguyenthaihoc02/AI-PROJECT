@@ -1,15 +1,15 @@
-## These are some final projects related to AI in the course
+## These are some final projects related to AI in the my course
 
 ### 1. Deep learning
 
-* Dự án học máy dự đoán giá sim điện thoại với dữ liệu crawl trên [kho sim](https://khosim.com/) sử dụng mô hình mạng LSTM (Long Short Term Memory) và triển khai mô hình trên nền tảng Amazon Web Server (AWS).
+* The deep learning project utilizer LSTM (Long Short Term Memory) networks to predict sim card prices using data collected from the [khosim](khosim.com) website.Afterwards, the model is deployed on the cloud computing platform with AWS (Amazon Webserver Service).
 
-* Dự án học sâu sử dụng YOLO v8 để nhận diện và cảnh báo khi có người xâm nhập và cảnh báo thông qua ứng dụng telegram.
+* The deep learning project user YOLOv8 models for detect intruders and sends alerts via Telegram.
 
 ### 2. Natural Language Processing
 
-* Dự án xử lý ngôn ngữ tự nhiên, xây dựng chatbot sử dụng RASA framework.
+* The natural languege processing project use RASA framework build chatbot support student ICTU (Thai Nguyen University of Information Technology and Communication).
 
 ### 3. Machine Learning
 
-* Dự án học máy xây dựng website bán thời trang tích hợp hệ thống gợi ý sử dụng collaborative Filtering User-User (lọc cộng tác người dùng - người dùng).
+* The machine learning project build fashion shop website use Flask-Python and use recommentdation system support customer. 

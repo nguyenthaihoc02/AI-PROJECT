@@ -1,0 +1,5 @@
+opencv-python
+python-telegram-bot
+imutils
+ultralytics
+cvzone
